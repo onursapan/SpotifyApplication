@@ -22,6 +22,11 @@ namespace SpotifyApplication.Repositories.Albums.Implementations
             return await ExecuteQueryFirstOrDefaultAsync<Album>(query, new {albumId}).ConfigureAwait(false);
         }
 
+        public async Task<IEnumerable<Album>> GetAlbumByArtistId(int artistId)
+        {
+            const string query = @"SELECT * FROM album WHERE artist_id = @artistId";
+            return await ExecuteQueryAsync<Album>(query, new {artistId}).ConfigureAwait(false);
+        }
 
         public async Task<bool> CreateAlbum(Album album)
         {

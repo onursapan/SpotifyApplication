@@ -10,6 +10,15 @@
   <component name="ChangeListManager">
     <list default="true" id="84b4fa1d-e675-4388-a7d4-f78756fe9f22" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpotifyApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpotifyApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotifyApplication/Controllers/ArtistController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApplication/Controllers/ArtistController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotifyApplication/Converters/Artists/ArtistConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApplication/Converters/Artists/ArtistConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotifyApplication/Dtos/Responses/ArtistResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApplication/Dtos/Responses/ArtistResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotifyApplication/Repositories/Albums/Implementations/AlbumRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApplication/Repositories/Albums/Implementations/AlbumRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotifyApplication/Repositories/Albums/Interfaces/IAlbumRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApplication/Repositories/Albums/Interfaces/IAlbumRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotifyApplication/Repositories/Artists/Implementations/ArtistRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApplication/Repositories/Artists/Implementations/ArtistRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotifyApplication/Repositories/Artists/Interfaces/IArtistRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApplication/Repositories/Artists/Interfaces/IArtistRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotifyApplication/Services/Artists/Implementations/ArtistService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApplication/Services/Artists/Implementations/ArtistService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotifyApplication/Services/Artists/Interfaces/IArtistService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApplication/Services/Artists/Interfaces/IArtistService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +108,9 @@
       <workItem from="1659191423409" duration="33000" />
       <workItem from="1659465155850" duration="4162000" />
       <workItem from="1659811286695" duration="5165000" />
+      <workItem from="1659878859693" duration="1278000" />
+      <workItem from="1659906066258" duration="4000" />
+      <workItem from="1660075578559" duration="8247000" />
     </task>
     <task id="LOCAL-00001" summary="AlbumController.cs added get-albumById endpoint.">
       <created>1658689186641</created>
@@ -183,29 +195,16 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SpotifyApplication/Services/Artists/Implementations/ArtistService.cs</url>
-          <line>32</line>
-          <properties documentPath="$PROJECT_DIR$/SpotifyApplication/Services/Artists/Implementations/ArtistService.cs" initialLine="32" containingFunctionPresentation="method 'CreateArtist'">
+          <line>35</line>
+          <properties documentPath="$PROJECT_DIR$/SpotifyApplication/Services/Artists/Implementations/ArtistService.cs" initialLine="32" containingFunctionPresentation="method 'GetArtistById'">
             <startOffsets>
-              <option value="1061" />
+              <option value="1280" />
             </startOffsets>
             <endOffsets>
-              <option value="1093" />
+              <option value="1341" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SpotifyApplication/Repositories/Artists/Implementations/ArtistRepository.cs</url>
-          <line>31</line>
-          <properties documentPath="$PROJECT_DIR$/SpotifyApplication/Repositories/Artists/Implementations/ArtistRepository.cs" initialLine="31" containingFunctionPresentation="method 'CreateArtist'">
-            <startOffsets>
-              <option value="1072" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1294" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

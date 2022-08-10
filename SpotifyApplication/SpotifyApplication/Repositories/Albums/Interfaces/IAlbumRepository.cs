@@ -6,6 +6,7 @@ namespace SpotifyApplication.Repositories.Albums.Interfaces
     {
         Task<IEnumerable<Album>> GetAlbumList();
         Task<Album> GetAlbumById(int albumId);
+        Task<IEnumerable<Album>> GetAlbumByArtistId(int artistId);
         Task<bool> CreateAlbum(Album album);
     }
     

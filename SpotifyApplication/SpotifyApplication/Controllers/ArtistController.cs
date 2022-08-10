@@ -24,6 +24,15 @@ public class ArtistController : BaseController
         return new JsonResult(new OperationResult<List<ArtistResponse>>(response));
     }
     
+    [Route("get-artistbyid")]
+    [HttpGet]
+    public async Task<JsonResult> GetArtistById(int artistId)
+    {
+        var response = await _artistService.GetArtistById(artistId);
+        return new JsonResult(new OperationResult<ArtistResponse?>(response));
+    }
+    
+    
     [Route("create-artist")]
     [HttpPost]
     public async Task<JsonResult> CreateArtist(CreateArtistRequest request)
